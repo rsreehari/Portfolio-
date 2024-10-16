@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #1e1e2f;
-    color: #e5e5e5;
+    background-color: #BBEEF1; /* Background color */
+    color: #333;
     line-height: 1.6;
     padding: 0 20px;
     scroll-behavior: smooth;
@@ -16,7 +16,7 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #fc5c7d 0%, #6a82fb 100%);
+    background: #5EBEC4; /* Header color */
     color: #fff;
     text-align: center;
     padding: 80px 20px;
@@ -43,7 +43,7 @@ section {
 section h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #fff;
+    color: #5EBEC4; /* Section title color */
     position: relative;
     display: inline-block;
     animation: fadeIn 1s ease-in-out;
@@ -54,7 +54,7 @@ section h2::after {
     position: absolute;
     width: 50px;
     height: 4px;
-    background-color: #fc5c7d;
+    background-color: #5EBEC4; /* Accent color for underline */
     left: 50%;
     transform: translateX(-50%);
     bottom: -10px;
@@ -65,7 +65,7 @@ section h2::after {
     max-width: 800px;
     margin: 20px auto;
     font-size: 1.2em;
-    color: #d1d1d1;
+    color: #333; /* Text color */
 }
 
 /* Skills Section */
@@ -78,7 +78,7 @@ section h2::after {
 
 #skills ul li {
     margin: 15px;
-    background-color: #fc5c7d;
+    background-color: #5EBEC4; /* Skill item background color */
     color: #fff;
     padding: 15px 25px;
     border-radius: 30px;
@@ -96,7 +96,7 @@ section h2::after {
 .project {
     margin: 30px auto;
     max-width: 700px;
-    background-color: #2a2a3d;
+    background-color: #2a2a3d; /* Project card background */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -110,12 +110,12 @@ section h2::after {
 .project h3 {
     margin-bottom: 10px;
     font-size: 1.8em;
-    color: #6a82fb;
+    color: #5EBEC4; /* Project title color */
 }
 
 .project p {
     font-size: 1.1em;
-    color: #cfcfcf;
+    color: #333; /* Project description color */
 }
 
 /* Contact Section */
@@ -126,21 +126,21 @@ section h2::after {
 }
 
 #contact .social-links a {
-    color: #fff;
+    color: #5EBEC4; /* Social icon color */
     margin: 0 20px;
-    font-size: 2em;
+    font-size: 3em; /* Increased icon size */
     transition: color 0.3s ease;
 }
 
 #contact .social-links a:hover {
-    color: #fc5c7d;
+    color: #BBEEF1; /* Hover color */
 }
 
 /* Footer Styles */
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #333;
+    background-color: #333; /* Footer background */
     color: #fff;
     margin-top: 40px;
 }

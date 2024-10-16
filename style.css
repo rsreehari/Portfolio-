@@ -132,6 +132,10 @@ section h2::after {
     transition: color 0.3s ease;
 }
 
+#contact .social-links a:visited {
+    color: #5EBEC4; /* Retain color after clicking */
+}
+
 #contact .social-links a:hover {
     color: #BBEEF1; /* Hover color */
 }

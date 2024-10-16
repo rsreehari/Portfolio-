@@ -78,8 +78,8 @@ section h2::after {
 
 #skills ul li {
     margin: 15px;
-    background-color: rgba(255, 255, 255, 0.2); /* Skill item background color */
-    color: #fff; /* Skill text color */
+    background-color: #2575fc; /* Updated Skill item background color */
+    color: #fff; /* Updated Skill text color */
     padding: 15px 25px;
     border-radius: 30px;
     font-size: 1.1em;
@@ -128,7 +128,7 @@ section h2::after {
 #contact .social-links a {
     color: #2575fc; /* Social icon color */
     margin: 0 20px;
-    font-size: 3em; /* Increased icon size */
+    font-size: 4em; /* Increased icon size to 4em */
     transition: color 0.3s ease;
 }
 

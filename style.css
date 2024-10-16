@@ -113,9 +113,9 @@ section h2::after {
     color: #5EBEC4; /* Project title color */
 }
 
-.project p {
+.project-description {
     font-size: 1.1em;
-    color: #333; /* Project description color */
+    color: #fff; /* Changed color for better readability */
 }
 
 /* Contact Section */
